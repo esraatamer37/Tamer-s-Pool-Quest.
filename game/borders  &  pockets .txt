@@ -1,0 +1,32 @@
+
+
+# Define table borders
+
+
+borders = [
+#Horizontal borders:
+    [(571, 107), (574, 88), (142, 86), (166, 107)],#Top left edge:
+    [(614, 88), (617, 107), (1048, 86), (1026, 106)],#Top right edge:
+    [(137, 581), (160, 562), (572, 582), (568, 563)],#Bottom left edge:
+    [(611, 562), (611, 581), (1024, 567), (1047, 586)],#Bottom right edge:
+#Vertical borders:
+    [(110, 556), (131, 537), (114, 109), (136, 134)],#Left edge:
+    [(1075, 561), (1054, 541), (1075,112), (1054, 133)]#Right edge:
+]
+
+# Define pockets positions and hole width
+
+pockets = [
+    # Top pockets:
+    (132, 104, hole_width),     #  left edge
+    (593, 94, hole_width),    # mid edge
+    (1053, 106, hole_width),   # right edge
+    # Down pockets:
+    (125, 569, hole_width),     #  left edge
+    (589, 580, hole_width),    # mid edge
+    (1057, 570, hole_width)    # right edge
+]
+
+
+
+#Created by: Esraa_Tamer_Nagah.
